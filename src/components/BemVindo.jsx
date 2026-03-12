@@ -10,6 +10,8 @@
         <div>
             <h2>Olá, {nomeFormatado}!</h2>
             <p>{mensagem}</p>
+            <p>Dois mais Dois {2+2}</p>
+            <p>Hoje são {new Date().getDate}</p>
         </div>
     )
 }
