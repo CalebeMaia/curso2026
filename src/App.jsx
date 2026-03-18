@@ -1,28 +1,30 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Footer from './components/Footer'
-import Img from './components/imgUrl'
-import Info from './components/info'
-import Header from './components/Header'
-import BemVindo from './components/BemVindo'
-
-
+import "./App.css";
+import Footer from "./components/Footer";
+import Img from "./components/ImgUrl";
+import Header from "./components/Header";
+import BemVindo from "./components/BemVindo";
+import SecaoHabitos from "./components/SecaoHabitos";
+import HabitList from "./components/HabitList";
 
 function App() {
+  
   return (
     <>
-      <div>
-        <Header  
-        titulo="Meu Hábitos"
-        descricao="Gerencie seu hábitos diários de forma simples e visual"
+      <div className="AplicationReact">
+        <Header
+          titulo="My daily Habits"
+          descricao="Gerencie seus habitos diarios de forma simples e visual"
         />
-        <BemVindo nomeUsuario="Cal" totalHabitos={5}></BemVindo>
+        <Img />*/
+        <BemVindo nomeUsuario="Cal" />
+
+        <SecaoHabitos titulo="Meus Habitos">
+          <HabitList/>
+        </SecaoHabitos>
         <Footer />
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
