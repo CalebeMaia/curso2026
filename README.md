@@ -1,6 +1,3 @@
-Aqui está seu README personalizado, com visual moderno e pronto pra usar no GitHub 👇
-
----
 
 # 🎯 Minhas Metas Diárias
 
