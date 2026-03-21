@@ -68,12 +68,3 @@ Este projeto foi criado com foco em:
 
 Desenvolvido por **Calebe Maia**
 
----
-
-Se quiser, posso deixar esse README ainda mais top com:
-
-* badges (status, licença, etc.)
-* imagens do sistema
-* deploy online (tipo Vercel)
-
-Só falar 👍
