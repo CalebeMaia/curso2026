@@ -1,16 +1,82 @@
-# React + Vite
+Aqui está seu README personalizado, com visual moderno e pronto pra usar no GitHub 👇
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+# 🎯 Minhas Metas Diárias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Aplicação desenvolvida com o objetivo de **fixar o aprendizado em sala de aula**, utilizando tecnologias modernas do ecossistema front-end.
 
-## React Compiler
+O projeto simula um sistema simples de gerenciamento de metas, permitindo ao usuário organizar suas tarefas do dia a dia de forma prática.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* ✅ Criar metas diárias
+* ❌ Excluir metas
+* 🔄 Estrutura baseada em CRUD (Create e Delete)
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+* ⚛️ React
+* ⚡ Vite
+* 🧹 ESLint
+
+---
+
+## 📥 Como executar o projeto
+
+Siga os passos abaixo para rodar o projeto localmente:
+
+```bash
+# Clone o repositório
+git clone https://github.com/CalebeMaia/curso2026.git
+
+# Acesse a pasta do projeto
+cd curso2026
+
+# Instale as dependências
+npm install
+
+# Execute o projeto
+npm run dev
+```
+
+Após isso, abra o navegador e acesse:
+
+👉 **[http://localhost:5173](http://localhost:5173)**
+
+---
+
+## 💡 Observações
+
+* Certifique-se de ter o **Node.js** instalado na sua máquina
+* Utilize o **Visual Studio Code** para uma melhor experiência de desenvolvimento
+
+---
+
+## 📚 Objetivo do projeto
+
+Este projeto foi criado com foco em:
+
+* Praticar conceitos de desenvolvimento com React
+* Entender o funcionamento de um CRUD simples
+* Aprimorar organização de código e boas práticas
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Calebe Maia**
+
+---
+
+Se quiser, posso deixar esse README ainda mais top com:
+
+* badges (status, licença, etc.)
+* imagens do sistema
+* deploy online (tipo Vercel)
+
+Só falar 👍
